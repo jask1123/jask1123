@@ -43,26 +43,28 @@
 
 ## 📊 GitHub統計
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=radical" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=radical" height="180"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=${{ github.repository_owner }}&theme=radical" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=jask1123&show_icons=true&theme=radical" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jask1123&layout=compact&theme=radical" height="180"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jask1123&theme=radical" height="180"/>
   <br/>
-  <img src="https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=dracula&margin-w=15&no-frame=true"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=jask1123&theme=dracula&margin-w=15&no-frame=true"/>
   <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&theme=dracula"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jask1123&theme=dracula"/>
   <br/>
-  <img src="https://raw.githubusercontent.com/${{ github.repository_owner }}/${{ github.repository_owner }}/output/github-snake.svg" alt="Snake animation"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jask1123/jask1123/output/github-snake-dark.svg?palette=github-dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jask1123/jask1123/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/jask1123/jask1123/output/github-snake.svg" />
+  </picture>
   <br/>
-  <img src="https://raw.githubusercontent.com/${{ github.repository_owner }}/${{ github.repository_owner }}/output/github-snake-dark.svg?palette=github-dark" alt="Snake animation dark"/>
-  <br/>
-  <img src="https://github.com/${{ github.repository_owner }}/${{ github.repository_owner }}/blob/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution"/>
+  <img src="https://github.com/jask1123/jask1123/blob/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution"/>
 </p>
 
 ---
 
 ## 👀 プロフィール閲覧数
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=${{ github.repository_owner }}&style=for-the-badge"/>
+  <img src="https://komarev.com/ghpvc/?username=jask1123&style=for-the-badge"/>
 </p>
 
 ---
