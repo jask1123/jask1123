@@ -7,26 +7,35 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Generate Snake
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Clean and Prepare Assets
+        run: |
+          rm -rf assets/
+          mkdir -p assets
+      
+      - name: Copy Generated Files
+        run: |
+          cp dist/github-snake.svg assets/
+          cp dist/github-snake-dark.svg assets/
+          cp dist/ocean.gif assets/
       
       - name: Commit and Push to Main
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          mkdir -p assets
-          cp dist/github-snake.svg assets/
-          cp dist/github-snake-dark.svg assets/
-          cp dist/ocean.gif assets/
           git add assets/
           git commit -m "Update GitHub Snake assets"
           git push 

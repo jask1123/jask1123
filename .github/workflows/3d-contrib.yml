@@ -7,10 +7,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.0
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          username: jask1123
-          output_dir: ./profile-3d-contrib
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Generate 3D Contribution
+        uses: yoshi389111/github-profile-3d-contrib@0.7.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
       - name: Commit & Push
         run: |
           git config --global user.name 'github-actions[bot]'
