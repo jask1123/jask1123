@@ -1,18 +1,12 @@
-<p align="center">
-  <img src="./assets/animated-bg.svg" alt="animated background" width="100%" />
-</p>
-
 # <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=Welcome+to+My+Profile!;Full+Stack+Developer;Open+Source+Enthusiast;Lifelong+Learner" alt="Typing SVG" />
 
 ---
 
 ## 🐍 GitHub Snake
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
-  <img alt="github-snake" src="./assets/github-snake.svg" />
-</picture>
+<div align="center">
+  ![snake gif](./assets/ocean.gif)
+</div>
 
 ---
 
@@ -53,15 +47,4 @@
 
 
 
-## 🎯 3D Contribution
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-3d-contrib.svg" />
-  <img alt="3d-contribution" src="./profile-3d-contrib/profile-3d-contrib.svg" />
-</picture>
-
-> **注意**: 3D Contributionを表示するには、GitHub Actionsを手動実行してください。
-> 1. リポジトリの **Actions** タブに移動
-> 2. **3D Contribution** ワークフローを選択
-> 3. **Run workflow** ボタンをクリック
