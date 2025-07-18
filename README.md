@@ -6,6 +6,16 @@
 
 ---
 
+## 🐍 GitHub Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
+  <img alt="github-snake" src="./assets/github-snake.svg" />
+</picture>
+
+---
+
 ## 🛠️ 技術スタック
 
 ### フロントエンド
@@ -41,22 +51,7 @@
   <img src="https://komarev.com/ghpvc/?username=jask1123&style=for-the-badge"/>
 </p>
 
----
 
-## 🐍 GitHub Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
-  <img alt="github-snake" src="./assets/github-snake.svg" />
-</picture>
-
-> **注意**: GitHub Snakeを表示するには、GitHub Actionsを手動実行してください。
-> 1. リポジトリの **Actions** タブに移動
-> 2. **Generate Snake** ワークフローを選択
-> 3. **Run workflow** ボタンをクリック
-
----
 
 ## 🎯 3D Contribution
 
