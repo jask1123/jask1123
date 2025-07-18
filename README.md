@@ -46,12 +46,27 @@
 ## 🐍 GitHub Snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jask1123/jask1123/output/dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jask1123/jask1123/output/dist/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/jask1123/jask1123/output/dist/github-snake.svg" />
 </picture>
 
 > **注意**: GitHub Snakeを表示するには、GitHub Actionsを手動実行してください。
 > 1. リポジトリの **Actions** タブに移動
 > 2. **Generate Snake** ワークフローを選択
+> 3. **Run workflow** ボタンをクリック
+
+---
+
+## 🎯 3D Contribution
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jask1123/jask1123/main/profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jask1123/jask1123/main/profile-3d-contrib/profile-3d-contrib.svg" />
+  <img alt="3d-contribution" src="https://raw.githubusercontent.com/jask1123/jask1123/main/profile-3d-contrib/profile-3d-contrib.svg" />
+</picture>
+
+> **注意**: 3D Contributionを表示するには、GitHub Actionsを手動実行してください。
+> 1. リポジトリの **Actions** タブに移動
+> 2. **3D Contribution** ワークフローを選択
 > 3. **Run workflow** ボタンをクリック
