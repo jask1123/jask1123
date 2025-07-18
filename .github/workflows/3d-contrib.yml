@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: yoshi389111/github-profile-3d-contrib@0.7.0
         with:
-          username: YOURUSERNAME
+          username: jask1123
           output_dir: ./profile-3d-contrib
       - name: Commit & Push
         run: |
