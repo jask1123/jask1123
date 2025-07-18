@@ -46,9 +46,9 @@
 ## 🐍 GitHub Snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jask1123/jask1123/output/dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jask1123/jask1123/output/dist/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/jask1123/jask1123/output/dist/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
+  <img alt="github-snake" src="./assets/github-snake.svg" />
 </picture>
 
 > **注意**: GitHub Snakeを表示するには、GitHub Actionsを手動実行してください。
@@ -61,9 +61,9 @@
 ## 🎯 3D Contribution
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jask1123/jask1123/main/profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jask1123/jask1123/main/profile-3d-contrib/profile-3d-contrib.svg" />
-  <img alt="3d-contribution" src="https://raw.githubusercontent.com/jask1123/jask1123/main/profile-3d-contrib/profile-3d-contrib.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-3d-contrib.svg" />
+  <img alt="3d-contribution" src="./profile-3d-contrib/profile-3d-contrib.svg" />
 </picture>
 
 > **注意**: 3D Contributionを表示するには、GitHub Actionsを手動実行してください。
